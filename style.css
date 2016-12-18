@@ -1,0 +1,372 @@
+ul li {
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	background: #004968;
+	display: inline-block;
+	height: 240px;
+}
+.atas-kiri{
+	width: 20%;
+	margin-left:7%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.atas-kanan{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.logo ul li{
+	float: left;
+}
+.menu-atas{
+	float: left;
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 14px;
+}
+.menu-atas a{
+	color: #ababab;
+}
+.menu-bawah{
+	float: right;
+	margin-right:5%;
+	font-size: 20px;
+}
+.menu-bawah a{
+	color: #afafaf;
+}
+.menu-atas ul li {
+	float: left;
+	padding: 0px 9px;
+}	
+.menu-bawah ul li{
+	float: left;
+	padding: 0px 9px;
+}
+.menu{
+	width: 100%;
+	margin-left: 0 auto;
+	background-color: #006089;
+	display:flex;
+	position: relative;
+}
+.menu ul li{
+	float: left;
+	padding: 0px 20px;
+}
+.menu a {
+	color: #FFF;
+	font-size: 20px;
+	padding-left: 30px;
+}
+.conten{
+	width: 100%;
+	background-image: url('img/Picture1.png');
+	background-position: fixed;
+	height: 500px;
+	position: center center;
+	display: inline-block;
+}
+.btn{
+	border: solid 1px #fff;
+	border-radius: 5px;
+	background:transparent;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s ease;
+}
+.btn:hover{
+	background-color: #006089;
+	color: #fff;
+}
+.layout{
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 1000px;
+}
+.rowspan{
+	width: 100%;
+}
+.row2{
+	width: 85%;
+	display:flex;
+	margin:20px 100px;
+}
+.row3{
+	width: 85%;
+	display: flex;
+	margin: 20px 100px;
+}
+.rowspan a{
+	float: left;
+	padding:0px 10px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #006089;
+	display: inline-block;
+	font-size: 18px;
+	width: 230px;
+	margin-top: 100%;
+}
+.layout1{
+	background-image: url('img/1411398620X310.jpg');
+	display:inline-block;
+	width: 22%;
+	height: 270px;
+	float: left;
+	margin: 0px 20px;
+}
+.layout2{
+	background-image: url('img/bom-treinamento-de-futsal-chutes.jpg');
+	display: inline-block;
+	width: 22%;
+	height: 270px;
+	float: left;
+	margin: 0px 20px;
+}
+.layout3{
+	background-image: url(img/praktikum-IPA.jpg);
+	display: inline-block;
+	width: 22%;
+	height: 270px;
+	float: left;
+	margin: 0px 20px;
+}
+.layout4{
+	background-image: url('img/Malas-Mengaji-Oh-No-Berikut-Tip-Rajin-Mengaji.jpg');
+	display: inline-block;
+	width: 22%;
+	height: 270px;
+	float: left;
+	margin: 0px 20px;
+}
+.	events{
+	width: 100%;
+	margin: 0 auto;
+}
+.event1{
+	width: 30%;
+	height: 500px;
+	border:transparent;
+	float: left;
+	margin: 0px 20px;
+	background-color: #f1f1f1;
+}
+.month{
+	font-size: 25px;
+	display: inline-block;
+	background-color: #1383b5;
+	color: #fff;
+	height: 35px;
+	width: 40%;
+	margin-top: 20px;
+	margin-left:106px; 
+	padding: 10px 15px;
+	text-align: center;
+}
+.number{
+	font-size: 60px;
+	text-align: center;
+	border: solid 1px #d6d6d6;
+	width: 40%;
+	border-top: none;
+	height: 100px;
+	margin: 0 auto;
+	padding: 10px 14px;
+	color: #1383b5;
+}
+.event2{
+	width: 30%;
+	height: 500px;
+	border: transparent;
+	float: left;
+	margin: 0px 20px;
+	background-color: #f1f1f1;
+}
+.event3{
+	width: 30%;
+	height: 500px;
+	border: transparent;
+	float: left;
+	margin: 0px 20px;
+	background-color: #f1f1f1;
+}
+.event3 .number{
+	margin-left: 106px;
+}
+.title{
+	text-align: center;
+	margin-top: 20px;
+}
+.title a{
+	text-decoration: none;
+	color: #5e4c4c;
+	font-size: 24px;
+	text-align: center;
+}
+.title a:hover{
+	color: #1383b5;
+}
+.title2{
+	color: #868686;
+	text-align: center;
+	margin-top: 20px;
+}
+.a{
+	text-align: center;
+	margin-top: 30px;
+}
+.a a{
+	color: #f85e39;
+}
+.btn6{
+	width: 100%;
+	margin-top: 50px;
+}
+.btn7{
+	border: solid 1px #a5a5a5;
+	width: 200px;
+	height: 60px;
+	background: transparent;
+	cursor: pointer;
+	transition: .4s ease;
+	text-decoration: none;
+	color: #777777;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+.btn7:hover{
+	border-color: #000;
+	color: #000;
+}
+.profil{
+	width: 80%;
+	margin: 0 auto;
+}
+.profil-title{
+	border-bottom: solid 2px #777;
+	margin: 0 auto;
+}
+.video{
+	width: 100%;
+}
+.vidio{
+	margin-top: 40px;
+	width: 50%;
+	float: left;
+}
+.penjelasan{
+	float: left;
+	width: 40%;
+	margin-top:40px ;
+	margin-bottom: 150px;
+}	
+.maps{
+	width: 32%;
+	margin-top: 40px;
+	float: right;
+}
+.footer{
+	background-color: #323232;
+	width: 100%;
+	display:flex;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.porspective{
+	margin:0px 100px;
+	margin-right: 180px;
+	margin-top: 50px;
+}
+.porspective ul li{
+	padding-top: 10px;
+}
+.porspective ul li a {
+	font-size: 18px;
+	color: #747474;
+}
+.porspective ul li a:hover{
+	color: #fff;
+}
+.footer-logo {
+	width: 30%;
+	margin-right: 120px;
+	margin-top: 40px;
+}
+.footer-logo p {
+	color: #747474;
+}
+.homepage {
+	margin-top: 50px;
+}
+.homepage ul li {
+	padding-top: 10px;
+}
+.homepage a{
+	text-decoration: underline !important;
+	color: #747474;
+	font-size: 18px;
+}
+.homepage a:hover{
+	color: #fff;
+}
+.akhir{
+	width: 100%;
+	display: inline-block;
+	background-color: #323232;
+}
+.content-box{
+	width: 50%;
+	float: left;
+	margin-left: 20px;
+}
+.post-left{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 5px;
+	background-image: url('img/15571292_1153524858079065_797419318_n.png');
+	cursor: pointer;
+}
+.facebook{
+	background-position: 0px 0px;
+	transition: all .3s ease;
+}
+.facebook:hover{
+	background-position: 0px -48px;
+}	
+.twitter{
+	background-position: 0px -96px;
+	transition: all .3s ease;
+}
+.twitter:hover{
+	background-position: 0px -144px;
+}
+.gplus{
+	background-position: 0px -192px;
+	transition: all .3s ease;
+}
+.gplus:hover{
+	background-position: 0px -240px;
+}
